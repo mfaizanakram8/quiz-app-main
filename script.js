@@ -1,292 +1,185 @@
 const questions = [
     {
-        question: "Which is the largest animal in the world?",
+        question: "What does HTML stand for?",
         answers: [
-            { text: "Shark", correct: false },
-            { text: "Blue Whale", correct: true },
-            { text: "Elephant", correct: false },
-            { text: "Giraffe", correct: false }
+            { text: "Hyper Trainer Marking Language", correct: false },
+            { text: "Hyper Text Markup Language", correct: true },
+            { text: "Hyper Text Marketing Language", correct: false },
+            { text: "Hyper Tool Markup Language", correct: false }
         ]
     },
     {
-        question: "Who is the first Prime Minister of Pakistan?",
+        question: "What is the file extension for HTML files?",
         answers: [
-            { text: "Quiad Azam", correct: false },
-            { text: "Liaqat Ali Khan", correct: true },
-            { text: "Allama Iqbal", correct: false },
-            { text: "Sir Syed Ahmed Khan", correct: false }
+            { text: ".html", correct: true },
+            { text: ".ht", correct: false },
+            { text: ".hml", correct: false },
+            { text: ".txt", correct: false }
         ]
     },
     {
-        question: "Which planet is closest to the Sun?",
+        question: "What is the purpose of the <br> tag?",
         answers: [
-            { text: "Mercury", correct: true },
-            { text: "Earth", correct: false },
-            { text: "Venus", correct: false },
-            { text: "Mars", correct: false }
+            { text: "To create a new paragraph", correct: false },
+            { text: "To insert a line break", correct: true },
+            { text: "To make text bold", correct: false },
+            { text: "To italicize text", correct: false }
         ]
     },
     {
-        question: "Which country is known as the Land of the Rising Sun?",
+        question: "What is the latest version of HTML?",
         answers: [
-            { text: "China", correct: false },
-            { text: "Japan", correct: true },
-            { text: "South Korea", correct: false },
-            { text: "India", correct: false }
+            { text: "HTML3", correct: false },
+            { text: "HTML4", correct: false },
+            { text: "HTML5", correct: true },
+            { text: "HTML6", correct: false }
         ]
     },
     {
-        question: "What is the capital city of Australia?",
+        question: "Which tags are used for headings in HTML?",
         answers: [
-            { text: "Sydney", correct: false },
-            { text: "Melbourne", correct: false },
-            { text: "Canberra", correct: true },
-            { text: "Brisbane", correct: false }
+            { text: "header tag", correct: false },
+            { text: "h1 to h6", correct: true },
+            { text: "heading tag", correct: false },
+            { text: "title", correct: false }
         ]
     },
     {
-        question: "Who wrote 'Romeo and Juliet'?",
+        question: "What is the purpose of the <a> tag?",
         answers: [
-            { text: "Charles Dickens", correct: false },
-            { text: "Mark Twain", correct: false },
-            { text: "William Shakespeare", correct: true },
-            { text: "Leo Tolstoy", correct: false }
+            { text: "To make text bold", correct: false },
+            { text: "To display an image", correct: false },
+            { text: "To create a hyperlink", correct: true },
+            { text: "To define a list item", correct: false }
         ]
     },
     {
-        question: "What is the hardest natural substance on Earth?",
+        question: "Which tag is used to display images in HTML?",
         answers: [
-            { text: "Gold", correct: false },
-            { text: "Iron", correct: false },
-            { text: "Diamond", correct: true },
-            { text: "Platinum", correct: false }
+            { text: "picture tag", correct: false },
+            { text: "img tag", correct: true },
+            { text: "image tag", correct: false },
+            { text: "src tag", correct: false }
         ]
     },
     {
-        question: "Which country gifted the Statue of Liberty to the USA?",
+        question: "How do you create an unordered list in HTML?",
         answers: [
-            { text: "Germany", correct: false },
-            { text: "France", correct: true },
-            { text: "Italy", correct: false },
-            { text: "Spain", correct: false }
+            { text: "ol tag", correct: false },
+            { text: "ul tag", correct: true },
+            { text: "list tag", correct: false },
+            { text: "li tag", correct: false }
         ]
     },
     {
-        question: "Who was the first man to step on the moon?",
+        question: "What is the <title> tag used for?",
         answers: [
-            { text: "Buzz Aldrin", correct: false },
-            { text: "Yuri Gagarin", correct: false },
-            { text: "Neil Armstrong", correct: true },
-            { text: "Michael Collins", correct: false }
+            { text: "For page titles displayed in the browser tab", correct: true },
+            { text: "For main headings in the page body", correct: false },
+            { text: "For metadata in the page body", correct: false },
+            { text: "For subheadings on the page", correct: false }
         ]
     },
     {
-        question: "What is the smallest country in the world by land area?",
+        question: "Which HTML element is used to define the footer of a document?",
         answers: [
-            { text: "Monaco", correct: false },
-            { text: "Vatican City", correct: true },
-            { text: "San Marino", correct: false },
-            { text: "Liechtenstein", correct: false }
+            { text: "foot tag", correct: false },
+            { text: "footer tag", correct: true },
+            { text: "bottom tag", correct: false },
+            { text: "base tag", correct: false }
         ]
     },
     {
-        question: "Which is the longest river in the world?",
+        question: "Which attribute specifies the URL of an image in the <img> tag?",
         answers: [
-            { text: "Amazon River", correct: false },
-            { text: "Nile River", correct: true },
-            { text: "Yangtze River", correct: false },
-            { text: "Mississippi River", correct: false }
+            { text: "href", correct: false },
+            { text: "src", correct: true },
+            { text: "alt", correct: false },
+            { text: "link", correct: false }
         ]
     },
     {
-        question: "In which year did World War II end?",
+        question: "What does the <meta> tag do?",
         answers: [
-            { text: "1943", correct: false },
-            { text: "1945", correct: true },
-            { text: "1947", correct: false },
-            { text: "1950", correct: false }
+            { text: "Adds metadata about the document", correct: true },
+            { text: "Defines the title of the page", correct: false },
+            { text: "Adds a heading to the document", correct: false },
+            { text: "Creates a list item", correct: false }
         ]
     },
     {
-        question: "What is the chemical symbol for water?",
+        question: "Which attribute is used to open a link in a new tab?",
         answers: [
-            { text: "H2O", correct: true },
-            { text: "O2", correct: false },
-            { text: "CO2", correct: false },
-            { text: "HO", correct: false }
+            { text: "href='_blank'", correct: false },
+            { text: "target='_blank'", correct: true },
+            { text: "window='new'", correct: false },
+            { text: "rel='external'", correct: false }
         ]
     },
     {
-        question: "Who painted the Mona Lisa?",
+        question: "Which tag is used to define an HTML form?",
         answers: [
-            { text: "Vincent van Gogh", correct: false },
-            { text: "Leonardo da Vinci", correct: true },
-            { text: "Michelangelo", correct: false },
-            { text: "Pablo Picasso", correct: false }
+            { text: "input tag", correct: false },
+            { text: "form tag", correct: true },
+            { text: "submit tag", correct: false },
+            { text: "action tag", correct: false }
         ]
     },
     {
-        question: "Which element has the atomic number 1?",
+        question: "How do you add a comment in HTML?",
         answers: [
-            { text: "Oxygen", correct: false },
-            { text: "Hydrogen", correct: true },
-            { text: "Carbon", correct: false },
-            { text: "Helium", correct: false }
+            { text: "// Comment", correct: false },
+            { text: "/* Comment */", correct: false },
+            { text: "<!-- Comment -->", correct: true },
+            { text: "# Comment", correct: false }
         ]
     },
     {
-        question: "Which continent is known as the Dark Continent?",
+        question: "What is the purpose of the 'alt' attribute in the <img> tag?",
         answers: [
-            { text: "Asia", correct: false },
-            { text: "Africa", correct: true },
-            { text: "South America", correct: false },
-            { text: "Australia", correct: false }
+            { text: "To add alternate text for the image", correct: true },
+            { text: "To style the image", correct: false },
+            { text: "To add a link to the image", correct: false },
+            { text: "To set image dimensions", correct: false }
         ]
     },
     {
-        question: "Which gas do plants absorb from the atmosphere?",
+        question: "Which tag is used to create a table in HTML?",
         answers: [
-            { text: "Oxygen", correct: false },
-            { text: "Nitrogen", correct: false },
-            { text: "Carbon Dioxide", correct: true },
-            { text: "Hydrogen", correct: false }
+            { text: "td tag", correct: false },
+            { text: "table tag", correct: true },
+            { text: "tr tag", correct: false },
+            { text: "tab tag", correct: false }
         ]
     },
     {
-        question: "Who is the author of the Harry Potter series?",
+        question: "Which tag is used for the largest heading in HTML?",
         answers: [
-            { text: "J.R.R. Tolkien", correct: false },
-            { text: "George R.R. Martin", correct: false },
-            { text: "J.K. Rowling", correct: true },
-            { text: "C.S. Lewis", correct: false }
+            { text: "h1 tag", correct: true },
+            { text: "h6 tag", correct: false },
+            { text: "title tag", correct: false },
+            { text: "header tag", correct: false }
         ]
     },
     {
-        question: "Which is the largest ocean in the world?",
+        question: "Which HTML tag is used to display text as bold?",
         answers: [
-            { text: "Atlantic Ocean", correct: false },
-            { text: "Indian Ocean", correct: false },
-            { text: "Arctic Ocean", correct: false },
-            { text: "Pacific Ocean", correct: true }
+            { text: "strong tag", correct: true },
+            { text: "em tag", correct: false },
+            { text: "bold", correct: false },
+            { text: "<b>", correct: true }
         ]
     },
     {
-        question: "Which planet is known as the Red Planet?",
+        question: "What does the <link> tag do in HTML?",
         answers: [
-            { text: "Venus", correct: false },
-            { text: "Saturn", correct: false },
-            { text: "Mars", correct: true },
-            { text: "Jupiter", correct: false }
-        ]
-    },
-    {
-        question: "What is the capital of Italy?",
-        answers: [
-            { text: "Milan", correct: false },
-            { text: "Rome", correct: true },
-            { text: "Naples", correct: false },
-            { text: "Venice", correct: false }
-        ]
-    },
-    {
-        question: "Which is the smallest planet in our solar system?",
-        answers: [
-            { text: "Venus", correct: false },
-            { text: "Mercury", correct: true },
-            { text: "Mars", correct: false },
-            { text: "Neptune", correct: false }
-        ]
-    },
-    {
-        question: "Who invented the telephone?",
-        answers: [
-            { text: "Thomas Edison", correct: false },
-            { text: "Alexander Graham Bell", correct: true },
-            { text: "Nikola Tesla", correct: false },
-            { text: "Guglielmo Marconi", correct: false }
-        ]
-    },
-    {
-        question: "Which is the largest desert in the world?",
-        answers: [
-            { text: "Arabian Desert", correct: false },
-            { text: "Gobi Desert", correct: false },
-            { text: "Sahara Desert", correct: true },
-            { text: "Kalahari Desert", correct: false }
-        ]
-    },
-    {
-        question: "Which planet is known as the Earth's Twin?",
-        answers: [
-            { text: "Mars", correct: false },
-            { text: "Venus", correct: true },
-            { text: "Jupiter", correct: false },
-            { text: "Saturn", correct: false }
-        ]
-    },
-    {
-        question: "Which is the highest mountain in the world?",
-        answers: [
-            { text: "K2", correct: false },
-            { text: "Mount Everest", correct: true },
-            { text: "Kangchenjunga", correct: false },
-            { text: "Lhotse", correct: false }
-        ]
-    },
-    {
-        question: "What is the name of the longest bone in the human body?",
-        answers: [
-            { text: "Fibula", correct: false },
-            { text: "Humerus", correct: false },
-            { text: "Femur", correct: true },
-            { text: "Tibia", correct: false }
-        ]
-    },
-    {
-        question: "Which is the most widely spoken language in the world?",
-        answers: [
-            { text: "English", correct: false },
-            { text: "Mandarin", correct: true },
-            { text: "Spanish", correct: false },
-            { text: "Hindi", correct: false }
-        ]
-    },
-    {
-        question: "Which country is known as the Land of the Midnight Sun?",
-        answers: [
-            { text: "Canada", correct: false },
-            { text: "Norway", correct: true },
-            { text: "Sweden", correct: false },
-            { text: "Finland", correct: false }
-        ]
-    },
-    {
-        question: "What is the square root of 64?",
-        answers: [
-            { text: "6", correct: false },
-            { text: "8", correct: true },
-            { text: "7", correct: false },
-            { text: "9", correct: false }
-        ]
-    },
-    {
-        question: "What is the capital of Canada?",
-        answers: [
-            { text: "Toronto", correct: false },
-            { text: "Ottawa", correct: true },
-            { text: "Vancouver", correct: false },
-            { text: "Montreal", correct: false }
-        ]
-    },
-    {
-        question: "Which famous ship sank on its maiden voyage in 1912?",
-        answers: [
-            { text: "HMS Victory", correct: false },
-            { text: "RMS Titanic", correct: true },
-            { text: "USS Constitution", correct: false },
-            { text: "SS Great Britain", correct: false }
+            { text: "Links to external stylesheets", correct: true },
+            { text: "Defines hyperlinks", correct: false },
+            { text: "Adds scripts", correct: false },
+            { text: "Creates a header", correct: false }
         ]
     }
+    // Add more questions as needed
 ];
 
 
