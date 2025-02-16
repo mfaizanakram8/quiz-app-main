@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "What does HTML stand for?",
+        question: "HTML ka full form kya hai?",
         answers: [
             { text: "Hyper Trainer Marking Language", correct: false },
             { text: "Hyper Text Markup Language", correct: true },
@@ -9,25 +9,25 @@ const questions = [
         ]
     },
     {
-        question: "What is the file extension for HTML files?",
+        question: "HTML file ka extension kya hota hai?",
         answers: [
             { text: ".html", correct: true },
-            { text: ".ht", correct: false },
+            { text: ".htm", correct: true },
             { text: ".hml", correct: false },
             { text: ".txt", correct: false }
         ]
     },
     {
-        question: "What is the purpose of the <br> tag?",
+        question: "<br> tag ka kya use hai?",
         answers: [
-            { text: "To create a new paragraph", correct: false },
-            { text: "To insert a line break", correct: true },
-            { text: "To make text bold", correct: false },
-            { text: "To italicize text", correct: false }
+            { text: "Naya paragraph banane ke liye", correct: false },
+            { text: "Line break insert karne ke liye", correct: true },
+            { text: "Text bold karne ke liye", correct: false },
+            { text: "Text italic karne ke liye", correct: false }
         ]
     },
     {
-        question: "What is the latest version of HTML?",
+        question: "HTML ka latest version konsa hai?",
         answers: [
             { text: "HTML3", correct: false },
             { text: "HTML4", correct: false },
@@ -36,61 +36,61 @@ const questions = [
         ]
     },
     {
-        question: "Which tags are used for headings in HTML?",
+        question: "Headings banane ke liye kaunse tags use hote hain?",
         answers: [
             { text: "header tag", correct: false },
             { text: "h1 to h6", correct: true },
             { text: "heading tag", correct: false },
-            { text: "title", correct: false }
+            { text: "title tag", correct: false }
         ]
     },
     {
-        question: "What is the purpose of the <a> tag?",
+        question: "<a> tag ka kya use hai?",
         answers: [
-            { text: "To make text bold", correct: false },
-            { text: "To display an image", correct: false },
-            { text: "To create a hyperlink", correct: true },
-            { text: "To define a list item", correct: false }
+            { text: "Text bold karne ke liye", correct: false },
+            { text: "Image display karne ke liye", correct: false },
+            { text: "Hyperlink banane ke liye", correct: true },
+            { text: "List item define karne ke liye", correct: false }
         ]
     },
     {
-        question: "Which tag is used to display images in HTML?",
+        question: "Images display karne ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "picture tag", correct: false },
-            { text: "img tag", correct: true },
-            { text: "image tag", correct: false },
-            { text: "src tag", correct: false }
+            { text: "<picture>", correct: false },
+            { text: "<img>", correct: true },
+            { text: "<image>", correct: false },
+            { text: "<src>", correct: false }
         ]
     },
     {
-        question: "How do you create an unordered list in HTML?",
+        question: "Unordered list banane ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "ol tag", correct: false },
-            { text: "ul tag", correct: true },
-            { text: "list tag", correct: false },
-            { text: "li tag", correct: false }
+            { text: "<ol>", correct: false },
+            { text: "<ul>", correct: true },
+            { text: "<list>", correct: false },
+            { text: "<li>", correct: false }
         ]
     },
     {
-        question: "What is the <title> tag used for?",
+        question: "<title> tag ka kya kaam hai?",
         answers: [
-            { text: "For page titles displayed in the browser tab", correct: true },
-            { text: "For main headings in the page body", correct: false },
-            { text: "For metadata in the page body", correct: false },
-            { text: "For subheadings on the page", correct: false }
+            { text: "Page title ko browser tab mein dikhana", correct: true },
+            { text: "Page body ka main heading define karna", correct: false },
+            { text: "Page metadata add karna", correct: false },
+            { text: "Subheadings banane ke liye", correct: false }
         ]
     },
     {
-        question: "Which HTML element is used to define the footer of a document?",
+        question: "HTML document ka footer define karne ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "foot tag", correct: false },
-            { text: "footer tag", correct: true },
-            { text: "bottom tag", correct: false },
-            { text: "base tag", correct: false }
+            { text: "<foot>", correct: false },
+            { text: "<footer>", correct: true },
+            { text: "<bottom>", correct: false },
+            { text: "<base>", correct: false }
         ]
     },
     {
-        question: "Which attribute specifies the URL of an image in the <img> tag?",
+        question: "<img> tag mein kis attribute se image ka URL diya jata hai?",
         answers: [
             { text: "href", correct: false },
             { text: "src", correct: true },
@@ -99,16 +99,16 @@ const questions = [
         ]
     },
     {
-        question: "What does the <meta> tag do?",
+        question: "<meta> tag ka kya kaam hai?",
         answers: [
-            { text: "Adds metadata about the document", correct: true },
-            { text: "Defines the title of the page", correct: false },
-            { text: "Adds a heading to the document", correct: false },
-            { text: "Creates a list item", correct: false }
+            { text: "Document ki metadata add karna", correct: true },
+            { text: "Page ka title define karna", correct: false },
+            { text: "Document ka heading define karna", correct: false },
+            { text: "List item create karna", correct: false }
         ]
     },
     {
-        question: "Which attribute is used to open a link in a new tab?",
+        question: "Koi link naye tab mein open karne ke liye kaunsa attribute use hota hai?",
         answers: [
             { text: "href='_blank'", correct: false },
             { text: "target='_blank'", correct: true },
@@ -117,16 +117,16 @@ const questions = [
         ]
     },
     {
-        question: "Which tag is used to define an HTML form?",
+        question: "HTML form banane ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "input tag", correct: false },
-            { text: "form tag", correct: true },
-            { text: "submit tag", correct: false },
-            { text: "action tag", correct: false }
+            { text: "<input>", correct: false },
+            { text: "<form>", correct: true },
+            { text: "<submit>", correct: false },
+            { text: "<action>", correct: false }
         ]
     },
     {
-        question: "How do you add a comment in HTML?",
+        question: "HTML mein comment kaise likhte hain?",
         answers: [
             { text: "// Comment", correct: false },
             { text: "/* Comment */", correct: false },
@@ -135,52 +135,52 @@ const questions = [
         ]
     },
     {
-        question: "What is the purpose of the 'alt' attribute in the <img> tag?",
+        question: "<img> tag ke 'alt' attribute ka kya purpose hai?",
         answers: [
-            { text: "To add alternate text for the image", correct: true },
-            { text: "To style the image", correct: false },
-            { text: "To add a link to the image", correct: false },
-            { text: "To set image dimensions", correct: false }
+            { text: "Alternate text add karne ke liye", correct: true },
+            { text: "Image ka size set karne ke liye", correct: false },
+            { text: "Image ka background color change karne ke liye", correct: false },
+            { text: "Image ko hover effect dene ke liye", correct: false }
         ]
     },
     {
-        question: "Which tag is used to create a table in HTML?",
+        question: "HTML mein table banane ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "td tag", correct: false },
-            { text: "table tag", correct: true },
-            { text: "tr tag", correct: false },
-            { text: "tab tag", correct: false }
+            { text: "<td>", correct: false },
+            { text: "<table>", correct: true },
+            { text: "<tr>", correct: false },
+            { text: "<tab>", correct: false }
         ]
     },
     {
-        question: "Which tag is used for the largest heading in HTML?",
+        question: "HTML mein sabse bada heading ka tag kaunsa hota hai?",
         answers: [
-            { text: "h1 tag", correct: true },
-            { text: "h6 tag", correct: false },
-            { text: "title tag", correct: false },
-            { text: "header tag", correct: false }
+            { text: "<h1>", correct: true },
+            { text: "<h6>", correct: false },
+            { text: "<title>", correct: false },
+            { text: "<header>", correct: false }
         ]
     },
     {
-        question: "Which HTML tag is used to display text as bold?",
+        question: "HTML mein text bold karne ke liye kaunsa tag use hota hai?",
         answers: [
-            { text: "strong tag", correct: true },
-            { text: "em tag", correct: false },
-            { text: "bold", correct: false },
+            { text: "<strong>", correct: true },
+            { text: "<em>", correct: false },
+            { text: "<bold>", correct: false },
             { text: "<b>", correct: true }
         ]
     },
     {
-        question: "What does the <link> tag do in HTML?",
+        question: "<link> tag ka kya use hai?",
         answers: [
-            { text: "Links to external stylesheets", correct: true },
-            { text: "Defines hyperlinks", correct: false },
-            { text: "Adds scripts", correct: false },
-            { text: "Creates a header", correct: false }
+            { text: "External stylesheet link karne ke liye", correct: true },
+            { text: "Hyperlink banane ke liye", correct: false },
+            { text: "Script add karne ke liye", correct: false },
+            { text: "Header create karne ke liye", correct: false }
         ]
     }
-    // Add more questions as needed
 ];
+
 
 
 const questionElement = document.getElementById("question");
